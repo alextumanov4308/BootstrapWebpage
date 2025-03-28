@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Overgate Mall Dundee</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Overgate Mall</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#history">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stores">Stores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="py-5 bg-secondary text-white text-center">
+    <div class="container">
+      <h1>Welcome to Overgate Mall, Dundee</h1>
+      <p>Your ultimate shopping destination</p>
+    </div>
+  </section>
+
+  <!-- History Section -->
+  <section id="history" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">History of Overgate Mall</h2>
+      <p>Overgate Mall has been a cornerstone of Dundee's retail scene, evolving with the city over the years.
+         Explore our history through a selection of images below.</p>
+      <!-- Carousel for history photos -->
+      <div id="historyCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..\index\Dundee Overgate GIN.jpeg" class="d-block w-100" alt="Mall History 1" width="1200" height="600">
+          </div>
+          <div class="carousel-item">
+            <img src="..\index\Overgate1.jpg" class="d-block w-100" alt="Mall History 2" width="1200" height="600">
+          </div>
+          <div class="carousel-item">
+            <img src="..\index\MS-147-8-14-2-Construction-site-of-new-overgate-1990s-1024x695.jpg" class="d-block w-100" alt="Mall History 3" width="1200" height="600">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#historyCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#historyCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stores Section (Additional Section) -->
+  <section id="stores" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Explore Our Stores</h2>
+      <p>Discover a variety of stores offering everything from fashion to electronics. Enjoy a unique shopping experience at Overgate Mall.</p>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="..\index\1636713591DV8atOvergateDundee_1.jpg" class="card-img-top" alt="Fashion Store" width="400" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Fashion Hub</h5>
+              <p class="card-text">Stay trendy with the latest fashion collections.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="..\index\Argos-Overgate-Dundee-2-av9lrggl-e1705589924265.jpg" class="card-img-top" alt="Electronics Store" width="400" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Tech World</h5>
+              <p class="card-text">Find the latest in electronics and gadgets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="..\index\Overgate-small-oversized.jpg" class="card-img-top" alt="Food Court" width="400" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Food Court</h5>
+              <p class="card-text">Savor a range of dining options and treats.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Get in Touch</h2>
+      <p>For inquiries or more information about Overgate Mall, please contact us:</p>
+      <p><strong>Email:</strong> info@overgatemall.com</p>
+      <p><strong>Phone:</strong> +44 1234 567890</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p>&copy; 2025 Overgate Mall Dundee. All rights reserved. 
+        <a href="https://www.dundee.ac.uk" class="text-white text-decoration-underline">University of Dundee</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
